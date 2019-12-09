@@ -11,6 +11,6 @@ require('ping-pong')
 
 describe('#ping_pong') do
   it('takes a number divisble by 3 evenly and replaces it with "ping"') do
-    expect(3.ping_pong()).to eq(['1','2','ping'])
+    expect(4.ping_pong()).to eq(['0','1','2','ping'])
   end
 end
